@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: "Courier New", Courier, monospace;
+      }
+      form {
+        width: 50%;
+      }
+      input {
+        border-radius: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <div>
+        <label for="voornaam">Voornaam:</label>
+      </div>
+      <div>
+        <input type="text" name="voornaam" id="voornaam" placeholder="stijn" />
+      </div>
+      <div><label for="familienaam">Familienaam:</label></div>
+      <div>
+        <input
+          type="text"
+          name="familienaam"
+          id="famielienaam"
+          placeholder="lenaerts"
+        />
+      </div>
+      <div><label for="gebruikersnaam">Gebruikersnaam:</label></div>
+      <div>
+        <input
+          type="text"
+          name="gebruikersnaam"
+          id="gebruikersnaam"
+          placeholder="mail@thomasmore.be" required/>
+      </div>
+      <div><label for="nickname">Nickname:</label></div>
+      <div>
+        <input type="text" name="nickname" id="nickname" />
+      </div>
+      <div><label for="password">Paswoord</label></div>
+      <div>
+        <input type="password" name="password" id="password" required/>
+      </div>
+      <div><label for="repeat password">Herhaal Paswoord:</label></div>
+      <div>
+        <input type="password" name="repeat password" id="repeat password" required/>
+      </div>
+      <div>
+        <input type="submit" value="registreren">
+      </div>
+    </form>
+  </body>
+</html>
